@@ -574,7 +574,11 @@ class SlideToActView
             )
 
             // Text alpha
-            mTextPaint.alpha = (255 * mPositionPercInv).toInt()
+            if(mPositionPercInv < 0.3f) {
+                (255 * 0.3f).toInt()
+            } else {
+                mTextPaint.alpha = (255 * mPositionPercInv).toInt()
+            }
             // Checking if the TextView has a Transformation method applied (e.g. AllCaps).
             val textToDraw = mTextView.transformationMethod?.getTransformation(text, mTextView) ?: text
             canvas.drawText(

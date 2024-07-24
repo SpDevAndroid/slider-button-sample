@@ -17,4 +17,38 @@
     <color name="md_grey_900">#212121</color>
     <color name="md_white_1000">#ffffff</color>
 
+
+    <!--  BG Colors   -->
+    <color name="tb_bg_color_1">#FF010101</color> <!-- Main Screen BG color    -->
+    <color name="tb_bg_color_2">#FF161616</color> <!-- BG color light gray for some CTA BG, And edit text's BG  -->
+    <color name="tb_bg_color_3">#FFFFFFFF</color> <!-- Main Active CTA BG Color -->
+    <color name="tb_bg_color_4">#FFDD5E5E</color> <!-- Error Floating Strip BG color -->
+    <color name="tb_bg_color_5">#FF589C23</color> <!-- Success Floating Strip BG color -->
+    <color name="tb_bg_color_6">#FF0A0A0A</color> <!-- Gradient Color  -->
+    <color name="tb_bg_color_7">#FF1D1C18</color> <!-- Gradient Color  -->
+    <color name="tb_bg_color_8">#99EBD5B3</color> <!-- glow effect color -->
+    <color name="tb_bg_color_9">#4DEBD5B3</color> <!-- glow effect color category -->
+    <color name="tb_bg_color_10">#CC0A0A0A</color> <!-- Full screen loader BG color -->
+    <color name="tb_bg_color_11">#362F23</color> <!-- progress bg color ( Not filled area ) -->
+    <color name="tb_bg_color_12">#0E0E0E</color> <!-- BG COlor for bottomsheet -->
+    <color name="tb_bg_color_13">#990A0A0A</color> <!-- semi transparent color for lock icon-->
+    <color name="tb_bg_color_14">#F20A0A0A</color> <!-- semi transparent color with 90% opacity, Currently used for ODP page toolbar -->
+
+
+
+    <!-- Text Colors  -->
+    <color name="tb_text_color_1">#FFCDCDCD</color> <!-- Main text color -->
+    <color name="tb_text_color_2">#FF2B2B2B</color> <!-- Hint text color, little off -->
+    <color name="tb_text_color_3">#FF010101</color> <!--  text color CTA -->
+    <color name="tb_text_color_4">#FFFFFFFF</color> <!--  text color white -->
+    <color name="tb_text_color_5">#FF5F5F5F</color> <!--  text color lighter than main color -->
+    <color name="tb_text_color_6">#FFEBD5B3</color> <!--  Gold color, selected navigation item color -->
+    <color name="tb_text_color_7">#FFAA7D4B</color> <!--  Gold color, line color milestone  -->
+
+    <color name="transparent">#00FFFFFF</color>
+
+
+    <!-- // TODO :SP SSO build issue with color resource, added temporarily, to be removed once fixed from SSO with new version -->
+    <color name="browser_actions_bg_grey">#F5F5F5</color>
+
 </resources>
